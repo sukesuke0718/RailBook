@@ -7,4 +7,8 @@ class HelloController < ApplicationController
     @msg = "Hello, Ruby!"
   end
 
+  def list
+    @book = Book.all
+  end
+
 end
