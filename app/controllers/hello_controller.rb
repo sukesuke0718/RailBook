@@ -8,7 +8,7 @@ class HelloController < ApplicationController
   end
 
   def list
-    @book = Book.all
+    @books = Book.all
   end
 
 end
