@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get 'hello/index', to: 'hello#index'
   get 'hello/view'
   get 'hello/list'
+  # keyword.html.erb用
   get 'view/keyword'
   post  'keyword/search'
+  # form_tag.html.erb用
+  get 'view/form_tag'
+  post  'view/create'
 end
